@@ -26,7 +26,7 @@ replace go.opentelemetry.io/otel/metric => go.opentelemetry.io/otel/metric v1.16
 replace github.com/prometheus/prometheus => github.com/prometheus/prometheus v0.43.0
 
 require (
-	cloud.google.com/go/storage v1.30.1 // @grafana/backend-platform
+	cloud.google.com/go/storage v1.33.0 // @grafana/backend-platform
 	cuelang.org/go v0.6.0-0.dev // @grafana/grafana-as-code
 	github.com/Azure/azure-sdk-for-go v65.0.0+incompatible // @grafana/backend-platform
 	github.com/Azure/go-autorest/autorest v0.11.28 // @grafana/backend-platform
@@ -114,7 +114,7 @@ require (
 	golang.org/x/time v0.3.0 // @grafana/backend-platform
 	golang.org/x/tools v0.12.0 // @grafana/grafana-as-code
 	gonum.org/v1/gonum v0.12.0 // @grafana/observability-metrics
-	google.golang.org/api v0.126.0 // @grafana/backend-platform
+	google.golang.org/api v0.132.0 // @grafana/backend-platform
 	google.golang.org/grpc v1.57.0 // @grafana/plugins-platform-backend
 	google.golang.org/protobuf v1.31.0 // @grafana/plugins-platform-backend
 	gopkg.in/alexcesaro/quotedprintable.v3 v3.0.0-20150716171945-2caba252f4dc // indirect
@@ -169,7 +169,7 @@ require (
 	github.com/golang/protobuf v1.5.3 // @grafana/backend-platform
 	github.com/google/btree v1.1.2 // indirect
 	github.com/google/flatbuffers v2.0.8+incompatible // indirect
-	github.com/googleapis/gax-go/v2 v2.11.0 // @grafana/backend-platform
+	github.com/googleapis/gax-go/v2 v2.12.0 // @grafana/backend-platform
 	github.com/gorilla/mux v1.8.0 // indirect
 	github.com/grafana/grafana-google-sdk-go v0.1.0 // @grafana/partner-datasources
 	github.com/grpc-ecosystem/go-grpc-prometheus v1.2.1-0.20191002090509-6af20e3a5340 // indirect
@@ -336,7 +336,7 @@ require (
 	github.com/google/go-querystring v1.1.0 // indirect
 	github.com/google/gofuzz v1.2.0 // indirect
 	github.com/google/s2a-go v0.1.4 // indirect
-	github.com/googleapis/enterprise-certificate-proxy v0.2.3 // indirect
+	github.com/googleapis/enterprise-certificate-proxy v0.2.5 // indirect
 	github.com/grafana/regexp v0.0.0-20221123153739-15dc172cd2db // indirect
 	github.com/grafana/sqlds/v2 v2.3.10 // indirect
 	github.com/hashicorp/go-cleanhttp v0.5.2 // indirect
